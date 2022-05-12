@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',"PageController@index");        // primo argomento: il nome del controller che abbiamo creato che ci servirà; secondo argomento:il nome della funzione creata
